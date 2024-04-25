@@ -1,8 +1,27 @@
-# React + Vite
+<img src="./src/assets/images/animation.gif" alt="3D Portfolio">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 3D Portfolyo Projesi (TR)
 
-Currently, two official plugins are available:
+Yaratıcılığımı ifade etmek ve eserlerinmi sergilemek için bir 3D portfolyo uygulaması geliştirdim. Kendi eserlerimi kişisel bir galeri gibi sunmanın yeni ve heyecan verici bir yolunu keşfediyorum.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Kullanılan Teknolojiler
+
+- HTML
+- CSS
+- JS
+- REACT
+- TAILWIND
+- THREE JS
+
+# 3D Portfolio Project (EN)
+
+I developed a 3D portfolio application to express my creativity and showcase my works. I'm exploring a new and exciting way to present my own creations like a personal gallery.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JS
+- REACT
+- TAILWIND
+- THREE JS
