@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { yeniay, arabuleu, emaar, neurosound } from "../assets/images";
 import {
     car,
     contact,
@@ -111,11 +111,24 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Full Stack Developer",
+        company_name: "Neurosound",
+        icon: neurosound,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "May 2020 - June 2023",
+        points: [
+            "Devoloping RESTful APIs on the .NET Core platform, which managed the application's backend logic and communicated with the database (MySQL).",
+            "Developing modern, user-friendly, and responsive single-page applications (SPAs) using Angular.",
+            "Developing desktop applications using ElectronJS, ensuring smooth operation on both Windows and macOS platforms.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        ],
+    },
+    {
+        title: "React Developer",
+        company_name: "EmaarTechs",
+        icon: emaar,
+        iconBg: "#fbc3bc",
+        date: "Feb 2022 - Feb 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -125,51 +138,33 @@ export const experiences = [
     },
     {
         title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        company_name: "Arabuleu",
+        icon: arabuleu,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2023 - Feb 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "In my role as a React and React Native developer, I utilized my strong JavaScript and TypeScript expertise to deliver robust and scalable applications.",
+            "Leveraging my proficiency in Redux, Zustand, and Context API, I effectively managed complex state requirements, ensuring optimal performance and maintainability.",
+            "By employing React Testing Library and Jest, I performed comprehensive unit testing, guaranteeing the reliability and stability of my codebase.",
+            "I am well-versed in the MVC architecture, enabling me to create modular and maintainable codebases for large-scale projects.",
         ],
     },
     {
         title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        company_name: "Yeniay Bilişim",
+        icon: yeniay,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Jun 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "I have developed innovative user interfaces using modern web technologies such as React, Angular, and Electron.js.",
+            "I have designed and developed hybrid mobile applications that work on both iOS and Android platforms using React Native.",
+            "I have created user-friendly and responsive web interfaces using frontend technologies like HTML, CSS, SCSS, Bootstrap, and Tailwind. ",
+            "I have developed dynamic web applications using Next.js and React, utilizing SSR and CSR techniques to improve productivity and performance. ",
         ],
     },
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
     {
         name: 'GitHub',
         iconUrl: github,
@@ -184,45 +179,45 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
         iconUrl: threads,
+        theme: 'btn-back-red',
+        name: 'Youtube Clone',
+        description: 'The popular content platform has created a full-fledged copy of YouTube, allowing users to browse videos in real-time.',
+        link: 'https://github.com/emrebulak/Youtube-Clone',
+    },
+    {
+        iconUrl: pricewise,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'E Commerce App',
+        description: 'This project was created as an e-commerce site that sells furniture and offers users a structure that allows users to sell furniture and perform operations such as listing and deleting.',
+        link: 'https://github.com/emrebulak/e-commorce-app',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Easy Bank Clone',
+        description: 'This project is Easy Bank theme developed using HTML, CSS and SCSS. The theme has an easy-to-use and customizable design and is fully responsive.',
+        link: 'https://github.com/emrebulak/EasyBank-Clone-App',
+    },
+    {
+        iconUrl: car,
+        theme: 'btn-back-blue',
+        name: 'JBL Clone',
+        description: 'This project is JBL theme developed using HTML, CSS and SCSS. The theme has an easy-to-use and customizable design and is fully responsive.',
+        link: 'https://github.com/emrebulak/JBL-Clone-App',
+    },
+    {
+        iconUrl: snapgram,
+        theme: 'btn-back-pink',
+        name: 'Starbucks Clone',
+        description: 'This special theme offers you a digital escape, presenting the unique atmosphere and delicious beverages of Starbucks.',
+        link: 'https://github.com/emrebulak/Starbucks-Clone',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Wheather App',
+        description: 'This project is Weather theme developed using HTML, CSS and Js. The theme has an easy-to-use and customizable design and is fully responsive.',
+        link: 'https://github.com/emrebulak/wheatherapp',
     }
 ];

@@ -1,15 +1,15 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import yeniay from './yeniay.jpg'
+import arabuleu from './arabuleu.jpg'
+import emaar from './emaar.jpg'
+import neurosound from './neurosound.jpg'
 import logo from './logo.svg'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
+    yeniay,
+    arabuleu,
+    emaar,
+    neurosound,
     logo
 }
